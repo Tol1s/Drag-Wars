@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Contact - Drag-Wars</title>
+    <link rel="icon" href="images/logos/drag_wars_logo.jpg">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles_contact.css">
+    <script src="scripts/script_contact.js"></script>
+  </head>
+
+  <body>
+    <div id="Contact-Page" class="page">
+      <div id="head-nav" class="header-navbar">
+        <div id="main-header" class="header">
+          <section id="header" class="page_section row">
+            <div><p id="drag">DRAG</p></div>
+            <div><p id="wars">WARS</p></div>
+          </section>
+
+          <section id="main_menu" class="page_section row">
+            <a href="index.html">Home</a>
+            <a href="event.html">Event</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="participation-Form.html">Participation-Form</a>
+            <a href="contact.html">Contact</a>
+          </section>
+        </div>
+      </div>
+      <div id="content" class="content">
+    		<section id="main_content" class="main_content">
+    			<h1 class="page_title">Contact</h1>
+          <hr>
+    			<form id="form" method="post" action="">
+            <div id="table">
+            <table>
+      				<tr>
+      					<th>
+      					  Name
+      					</th>
+      					<td>
+      					  <input type="text" name="name" id="name"><br>
+                  <span id="name_error" class="Error"></span>
+      					</td>
+      				</tr>
+      				<tr>
+      					<th>
+      					  Surname
+      					</th>
+      					<td>
+      					  <input type="text" name="sname" id="sname"><br>
+                  <span id="sname_error" class="Error"></span>
+      					</td>
+      				</tr>
+      				<tr>
+      					<th>
+      					  Email
+      					</th>
+      					<td>
+      					  <input type="text" name="email" id="email"><br>
+                  <span id="email_error"></span>
+      					</td>
+      				</tr>
+              <tr>
+                <th>
+                  Telephone
+                </th>
+                <td>
+                  <input type="text" name="telephone" id="telephone"><br>
+                  <span id="telephone_error"></span>
+                </td>
+              </tr>
+              <tr>
+                <th>
+                  Message
+                </th>
+                <td>
+                  <textarea rows="5" cols="35" id="message"></textarea><br>
+                  <span id="message_error"></span>
+                </td>
+              </tr>
+              <tr>
+                <th>
+                  <td>
+                    <input onclick="check()" type="button" id="btn" value="Send message">
+                  </td>
+                </th>
+              </tr>
+      			</table>
+          </div>
+          <hr>
+      		</form>
+      		<div id="result">
+          </div>
+        </section>
+		  </div>
+    </div>
+    <footer>
+      <p>&copy; 2016 - The Drag-Wars Group.</p>
+        <div id="social" class="social">
+          <p>
+            <a href="https://www.facebook.com/"><img src="images/logos/facebook.png"></a>
+            <a href="https://twitter.com/"><img src="images/logos/tweeter.png"></a>
+            <a href="yhttps://www.youtube.com/"><img src="images/logos/YouTube.png"></a>
+            <a href="https://www.pinterest.com/"><img src="images/logos/Pinterest.png"></a>
+            <a href="https://www.instagram.com/"><img src="images/logos/instagram.jpg"></a>
+          </p>
+        </div>
+    </footer>
+  </body>
+</html>

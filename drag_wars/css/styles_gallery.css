@@ -1,0 +1,104 @@
+/*  CSS Document  */
+
+/* Gallery */
+
+body  {
+  background-color: #0A0606;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;
+  overflow : hidden;
+
+}
+
+#main-header  {
+  background-color: #000;
+  line-height: 50px;
+  position: relative;
+  width: 100%;
+}
+
+
+#header #drag {
+  position: absolute;
+  color: orange;
+  font-size: 2.5em;
+  margin: 0;
+  padding: 10px 0px;
+  left: 205px;
+}
+
+#header #wars {
+  color: orange;
+  font-size: 4em;
+  margin: 0;
+  top: 48px;
+  position: relative;
+  left: 170px;
+
+}
+
+#main_menu  {
+  position: absolute;
+  float: right;
+  font-size: 1.5em;
+  top: 0;
+  right: 140px;
+  padding: 0px;
+}
+
+#main_menu a  {
+  padding: 0px 30px;
+  text-decoration: none;
+  color: #85a63e;
+}
+
+#main_menu a:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+/* Main Content */
+
+#content  {
+  padding: 50px 170px 0px 170px;
+  color: #999;
+}
+
+.page_title {
+  position: relative;
+  left: 15px;
+}
+
+.row img {
+  width: 320px;
+  height: 200px;
+  padding: 6px;
+  transition: transform 1s;
+}
+.row img:hover  {
+  transform: scale(2);
+}
+.row  {
+  background-color: #000;
+}
+
+/* Footer */
+
+footer {
+  float: right;
+  padding-right: 170px;
+  margin: 0;
+}
+footer p {
+  margin: 10px 0px;
+  color: #85a63e;
+}
+#social img {
+  width: 30px;
+  height: 30px;
+  float: left;
+  border-radius: 4px;
+  margin: 0px 6px;
+}

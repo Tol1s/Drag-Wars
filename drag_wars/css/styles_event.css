@@ -1,0 +1,133 @@
+/*  CSS Document  */
+
+/* Event */
+
+body  {
+  background-color: #0A0606;
+  margin: 0;
+  padding: 0;
+  overflow : hidden;
+
+}
+
+#header  {
+  background-color: #000;
+  line-height: 50px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+#header #drag {
+  position: absolute;
+  color: orange;
+  font-size: 2.5em;
+  margin: 0;
+  padding: 10px 0px;
+  left: 205px;
+}
+
+#header #wars {
+  color: orange;
+  font-size: 4em;
+  margin: 0;
+  top: 48px;
+  position: relative;
+  left: 170px;
+}
+
+#main_menu  {
+  position: absolute;
+  float: right;
+  font-size: 1.5em;
+  top: 10px;
+  right: 140px;
+}
+
+#main_menu a  {
+  padding: 0px 30px;
+  text-decoration: none;
+  color: #85a63e;
+}
+
+#main_menu a:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+/* Main Content */
+
+#content {
+  color: #999;
+  margin: 140px 0px 0px 0px;
+  padding: 0px 150px 0px 150px;
+}
+
+#content #main_content #cell_1 {
+  padding: 0px 20px 0px 25px;
+}
+#content #main_content #cell_1 a {
+  color: #8B0000;
+}
+
+#content #main_content #cell_2 {
+  padding: 0px 25px 0px 20px;
+
+}
+#content #main_content #cell_2 img {
+  width: 450px;
+  height: auto;
+}
+
+
+
+/*
+#main_content img {
+  width: 400px;
+  position: relative;
+left: 600px;
+bottom: 70px;
+}*/
+
+#main_content_2  {
+  margin: 0px 70px 0 70px;
+}
+#main_content_2 aside  {
+  width: 33%;
+  float: left;
+  text-align: center;
+  color: #999;
+  padding: 50px 2px 0px; 2px;
+}
+
+#main_content_2 .content.db img {
+  width: 140px;
+  height: 100px;
+}
+#main_content_2 .content.contest img {
+  width: 140px;
+  height: 100px;
+}
+#main_content_2 .content.party img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Footer */
+
+footer {
+  float: right;
+  padding-right: 170px;
+  margin: 0;
+}
+footer p {
+  margin: 10px 0px;
+  color: #85a63e;
+}
+#social img {
+  width: 30px;
+  height: 30px;
+  float: left;
+  border-radius: 4px;
+  margin: 0px 6px;
+}

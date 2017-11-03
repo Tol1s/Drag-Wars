@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Participation-Form - Drag-Wars</title>
+    <link rel="icon" href="images/logos/drag_wars_logo.jpg">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles_participation-form.css">
+    <script src="scripts/script_participation-form.js"></script>
+  </head>
+
+  <body>
+    <div id="Participation-Form-Page" class="page">
+      <div id="head-nav" class="header-navbar">
+        <div id="main-header" class="header">
+          <section id="header" class="page_section row">
+            <div><p id="drag">DRAG</p></div>
+            <div><p id="wars">WARS</p></div>
+          </section>
+
+          <section id="main_menu" class="page_section row">
+            <a href="index.html">Home</a>
+            <a href="event.html">Event</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="participation-Form.html">Participation-Form</a>
+            <a href="contact.html">Contact</a>
+          </section>
+        </div>
+      </div>
+
+      <div id="content" class="page_section row">
+    		<article id="main_content" class="page_subsection">
+    			<h1 class="page_title">Participation - Form</h1>
+          <hr>
+    			<form id="form" method="post" action="">
+            <table id="table">
+              <tr>
+                <td>
+
+                  <div id="table_1">
+                    <table>
+      				        <tr>
+      					        <th>
+      					          Name
+      					        </th>
+                				<td>
+                				  <input type="text" name="name" id="name"><br>
+                          <span id="name_error" class="Error"></span>
+                				</td>
+      				        </tr>
+      				        <tr>
+              					<th>
+              					  Surname
+              					</th>
+              					<td>
+              					  <input type="text" name="sname" id="sname"><br>
+                          <span id="sname_error" class="Error"></span>
+              					</td>
+              				</tr>
+              				<tr>
+              					<th>
+              					  Email
+              					</th>
+              					<td>
+              					  <input type="text" name="email" id="email"><br>
+                          <span id="email_error"></span>
+              					</td>
+              				</tr>
+                      <tr>
+                        <th>
+                          Telephone
+                        </th>
+                        <td>
+                          <input type="text" name="telephone" id="telephone"><br>
+                          <span id="telephone_error"></span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>
+                          Message
+                        </th>
+                        <td>
+                          <textarea rows="5" cols="30" id="message"></textarea><br>
+
+                          <span id="message_error"></span>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </td>
+
+                <td>
+                  <div id="table_2">
+                    <table>
+                      <tr>
+                        <th>
+                          Vehicle Year
+                        </th>
+                        <td>
+                          <input type="text" name="vehicle year" id="vyear"><br>
+                          <span id="vyear_error" class="Error"></span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>
+                          Vehicle Make
+                        </th>
+                        <td>
+                          <input type="text" name="vehicle name" id="vmake"><br>
+                          <span id="vmake_error" class="Error"></span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>
+                          Vehicle Model
+                        </th>
+                        <td>
+                          <input type="text" name="vehicle model" id="vmodel"><br>
+                          <span id="vmodel_error" class="Error"></span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>
+                          Engine Type
+                        </th>
+                        <td>
+                          <select name="engine_type" id="vengine"><br>
+                            <option value=""></option>
+                						<option value="I4">Inline-4</option>
+                						<option value="I5">Inline-5</option>
+                            <option value="I6">Inline-6</option>
+                            <option value="V6">V6</option>
+                						<option value="V8">V8</option>
+                						<option value="V10">V10</option>
+                            <option value="V12">V12</option>
+                            <option value="Rotary">Rotary</option>
+                					</select>
+                          <span id="vengine_error" class="Error"></span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>
+                          Drivetrain
+                        </th>
+                        <td>
+                          <select name="drivetrain" id="drivetrain"><br>
+                            <option value=""></option>
+                						<option value="FWD">Front-wheel drive</option>
+                						<option value="RWD">Rear-wheel drive</option>
+                            <option value="AWD">All-wheel drive</option>
+                					</select>
+                          <span id="drivetrain_error"></span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>
+                          Induction Type
+                        </th>
+                        <td>
+                          <select name="induction type" id="induction"><br>
+                            <option value=""></option>
+                						<option value="1">Naturally Aspirated</option>
+                						<option value="2">Turbocharged</option>
+                            <option value="3">Supercharged</option>
+                          </select>
+                          <span id="induction_error"></span>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </td>
+
+              </tr>
+              <tr>
+                <th colspan="2" id="btn">
+                  <input onclick="check()" type="button" value="Send">
+                </th>
+              </tr>
+            </table>
+    			</form>
+          <hr>
+    			<div id="result">
+    			</div>
+    		</article>
+      </div>
+
+    <footer>
+      <p>&copy; 2016 - The Drag-Wars Group.</p>
+        <div id="social" class="social">
+          <p>
+            <a href="https://www.facebook.com/"><img src="images/logos/facebook.png"></a>
+            <a href="https://twitter.com/"><img src="images/logos/tweeter.png"></a>
+            <a href="yhttps://www.youtube.com/"><img src="images/logos/YouTube.png"></a>
+            <a href="https://www.pinterest.com/"><img src="images/logos/Pinterest.png"></a>
+            <a href="https://www.instagram.com/"><img src="images/logos/instagram.jpg"></a>
+          </p>
+        </div>
+    </footer>
+  </body>
+</html>
